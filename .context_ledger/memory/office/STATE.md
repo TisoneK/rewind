@@ -5,7 +5,7 @@ at check-in and at exit. This is a DERIVED VIEW for fast orientation;
 open the file a line points at when your task needs more than the
 line gives you. Full reading order: ledger-schema.md. -->
 
-_Regenerated: 2026-10-31T05:36:02Z_
+_Regenerated: 2026-10-31T06:18:14Z_
 
 ## Standing params
 - **Core:** 2.3.0 (locked, verified 2026-10-30)
@@ -15,10 +15,7 @@ _Regenerated: 2026-10-31T05:36:02Z_
 - Full params: `memory/workflows/active.md`
 
 ## Office — who's in, right now
-- **Ada** (S001) — Done — Layer A — rewind/lexer.py + tests/test_lexer.py (cohort C-rewind-01)
-- **Grace** (S002) — Done — cohort C-rewind-01 Layer B - parser
-- **Linus** (S003) — Done — Layer C — interpreter + recorder, cohort C-rewind-01
-- **Margaret** (S004) — Done — Layer D — time-travel debugger (rewind/debugger.py + tests/test_debugger.py) for cohort…
+(office empty — no live roster rows)
 
 ## Current task
 - **—** — none — no session in progress — *idle*
