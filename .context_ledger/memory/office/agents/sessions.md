@@ -32,3 +32,10 @@ re-seeded into the new office explicitly, and nothing else carries over.
 - **Open items:** none for Layer A. Gate command assumes `python` on PATH — parent may want to note that in gates.conf.
 - **Notes:** none
 - **Report:** none
+## 2026-10-30 — Session 2
+- **Agent:** Grace (S002) | **Model:** claude-sonnet-5-5 | **Platform:** macOS (Darwin 24.6.0), git worktree | **Role:** engineer (cohort C-rewind-01, Layer B) | **Core:** 2.3.0
+- **Task:** Implement Layer B — rewind/parser.py (parse(tokens) -> Program) + tests/test_parser.py, against the frozen contracts.
+- **Commits:** 3 (d891b92..d00497d) on branch claude/rewind-parser-661281
+- **Outcome:** done — recursive-descent parser, 82 tests passing; comparisons non-associative per grammar; SyntaxError carries source offset.
+- **Open items:** none. Note: pre-commit gate runs bare `python -m pytest`; it needs a `python` on PATH (worktree venv bin) and fails with exit 5 while tests/ has no tests (affected the check-in commit only).
+- **Notes:** none

@@ -5,7 +5,7 @@ at check-in and at exit. This is a DERIVED VIEW for fast orientation;
 open the file a line points at when your task needs more than the
 line gives you. Full reading order: ledger-schema.md. -->
 
-_Regenerated: 2026-10-31T05:31:13Z_
+_Regenerated: 2026-10-31T05:35:44Z_
 
 ## Standing params
 - **Core:** 2.3.0 (locked, verified 2026-10-30)
@@ -16,7 +16,7 @@ _Regenerated: 2026-10-31T05:31:13Z_
 
 ## Office — who's in, right now
 - **Ada** (S001) — Done — Layer A — rewind/lexer.py + tests/test_lexer.py (cohort C-rewind-01)
-- **(cohort C-rewind-01 slot 2)** (S002) — Reserved — reserved - cohort C-rewind-01 (2/4)
+- **Grace** (S002) — Done — cohort C-rewind-01 Layer B - parser
 - **(cohort C-rewind-01 slot 3)** (S003) — Reserved — reserved - cohort C-rewind-01 (3/4)
 - **(cohort C-rewind-01 slot 4)** (S004) — Reserved — reserved - cohort C-rewind-01 (4/4)
 

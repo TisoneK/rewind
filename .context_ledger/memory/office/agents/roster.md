@@ -53,7 +53,7 @@ is your stable session tag.
 | Name | Codename | Model | Doing | Status | Status detail |
 |------|----------|-------|-------|--------|---------------|
 | Ada | S001 | claude-sonnet-5-5 | Layer A — rewind/lexer.py + tests/test_lexer.py (cohort C-rewind-01) | Done | Shipped: rewind/lexer.py + tests/test_lexer.py (68 tests pass) on branch claude/rewind-lexer-a8fc6b; awaiting parent merge |
-| (cohort C-rewind-01 slot 2) | S002 | - | reserved - cohort C-rewind-01 (2/4) | Reserved | opened by Soren for: build the four layers of the rewind time-travel debugger (lexer, parser, interpreter+recorder, time-travel debugger) against the frozen contracts; the assigned sibling claims this row in place at check-in |
+| Grace | S002 | claude-sonnet-5-5 | cohort C-rewind-01 Layer B - parser | Done | Shipped: rewind/parser.py + tests/test_parser.py (82 tests passing); branch claude/rewind-parser-661281 |
 | (cohort C-rewind-01 slot 3) | S003 | - | reserved - cohort C-rewind-01 (3/4) | Reserved | opened by Soren for: build the four layers of the rewind time-travel debugger (lexer, parser, interpreter+recorder, time-travel debugger) against the frozen contracts; the assigned sibling claims this row in place at check-in |
 | (cohort C-rewind-01 slot 4) | S004 | - | reserved - cohort C-rewind-01 (4/4) | Reserved | opened by Soren for: build the four layers of the rewind time-travel debugger (lexer, parser, interpreter+recorder, time-travel debugger) against the frozen contracts; the assigned sibling claims this row in place at check-in |
 
