@@ -1,0 +1,9 @@
+# Print the Fibonacci numbers below 50.
+a = 0;
+b = 1;
+while (a < 50) {
+  print a;
+  next = a + b;
+  a = b;
+  b = next;
+}

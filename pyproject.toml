@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rewind-debugger"
+version = "0.1.0"
+description = "A time-travel debugger for the Pebble toy language: record every state change, scrub backward."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+rewind = "rewind.__main__:main"
+
+[tool.setuptools]
+packages = ["rewind"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
