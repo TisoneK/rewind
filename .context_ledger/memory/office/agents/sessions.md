@@ -22,3 +22,13 @@ re-seeded into the new office explicitly, and nothing else carries over.
 - **Notes:** .context_ledger/memory/office/sessions/<date>-<N>/notes.md  (or "none")
 - **Report:** .context_ledger/memory/office/reviews/YYYY-MM-DD-review.md
 -->
+
+---
+## 2026-10-30 — Session 1
+- **Agent:** Ada (S001) | **Model:** claude-sonnet-5-5 | **Platform:** local macOS (Darwin 24.6.0), worktree rewind-lexer-a8fc6b | **Role:** engineer (cohort C-rewind-01, Layer A) | **Core:** 2.3.0
+- **Task:** Implement Layer A — rewind/lexer.py `tokenize()` + tests/test_lexer.py against the frozen tokens contract.
+- **Commits:** 3 on claude/rewind-lexer-a8fc6b (check-in, feat lexer 27b87d2, ledger close-out)
+- **Outcome:** done — 68 tests pass. Note: the pre-commit gate (`python -m pytest`) failed at check-in only because no tests existed yet (pytest exit 5) and bare `python` is not on PATH; ran it with the repo .venv on PATH. Check-in commit was made before it could pass.
+- **Open items:** none for Layer A. Gate command assumes `python` on PATH — parent may want to note that in gates.conf.
+- **Notes:** none
+- **Report:** none
