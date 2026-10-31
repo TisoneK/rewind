@@ -45,5 +45,11 @@ re-seeded into the new office explicitly, and nothing else carries over.
 - **Commits:** 2 code/ledger (293ca80..2a42963) + closing ledger commit
 - **Outcome:** done — 60 tests pass; pre-commit gate passed (run with `.venv/bin` on PATH, since the discovered gate calls `python`).
 - **Open items:** none. Design choices for the integrator: `/` is floor division; `if`/`while` each record a snapshot for the condition outcome (`while` once per evaluation incl. the final false check); assign desc shows the assigned value (`x = 5`), print desc shows the expression source (`print x`).
+## 2026-10-30 — Session 4
+- **Agent:** Margaret (S004) | **Model:** claude-sonnet-5-5 | **Platform:** macOS (darwin 24.6) local worktree | **Role:** engineer | **Core:** 2.3.0
+- **Task:** Cohort C-rewind-01 Layer D — implement the time-travel debugger (`rewind/debugger.py`) and `tests/test_debugger.py`.
+- **Commits:** 3 (b1d8a02..3c5e65f, plus this session-log commit)
+- **Outcome:** done — `TimeTravelDebugger` drives the Timeline cursor; 34 tests pass on hand-built timelines (no other layer imported).
+- **Open items:** `format_current` reads `step <snap.step>/<last index>` (e.g. 7 snapshots -> `step 6/6` at the end); the contract example `step 3/7` is ambiguous, so the integrator may flip it to `len` as the denominator. The pre-commit gate shells out to bare `python`, which this machine lacks; run it with `.venv/bin` on PATH.
 - **Notes:** none
 - **Report:** none
