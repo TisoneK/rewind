@@ -55,7 +55,7 @@ is your stable session tag.
 | (cohort C-rewind-01 slot 1) | S001 | - | reserved - cohort C-rewind-01 (1/4) | Reserved | opened by Soren for: build the four layers of the rewind time-travel debugger (lexer, parser, interpreter+recorder, time-travel debugger) against the frozen contracts; the assigned sibling claims this row in place at check-in |
 | (cohort C-rewind-01 slot 2) | S002 | - | reserved - cohort C-rewind-01 (2/4) | Reserved | opened by Soren for: build the four layers of the rewind time-travel debugger (lexer, parser, interpreter+recorder, time-travel debugger) against the frozen contracts; the assigned sibling claims this row in place at check-in |
 | (cohort C-rewind-01 slot 3) | S003 | - | reserved - cohort C-rewind-01 (3/4) | Reserved | opened by Soren for: build the four layers of the rewind time-travel debugger (lexer, parser, interpreter+recorder, time-travel debugger) against the frozen contracts; the assigned sibling claims this row in place at check-in |
-| Margaret | S004 | claude-sonnet-5-5 | Layer D — time-travel debugger (rewind/debugger.py + tests/test_debugger.py) for cohort C-rewind-01 | Working | Phase 2 checked in; next: read kickoff + contracts, then implement Layer D |
+| Margaret | S004 | claude-sonnet-5-5 | Layer D — time-travel debugger (rewind/debugger.py + tests/test_debugger.py) for cohort C-rewind-01 | Done | Shipped: rewind/debugger.py + tests/test_debugger.py, 34 tests pass; branch claude/rewind-debugger-9ba75a |
 
 **Keep your Status cells current — that is what the board is for.** The
 next live worker reads it to know at a glance what a peer has finished,

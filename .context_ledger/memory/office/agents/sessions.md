@@ -22,3 +22,13 @@ re-seeded into the new office explicitly, and nothing else carries over.
 - **Notes:** .context_ledger/memory/office/sessions/<date>-<N>/notes.md  (or "none")
 - **Report:** .context_ledger/memory/office/reviews/YYYY-MM-DD-review.md
 -->
+
+---
+## 2026-10-30 — Session 4
+- **Agent:** Margaret (S004) | **Model:** claude-sonnet-5-5 | **Platform:** macOS (darwin 24.6) local worktree | **Role:** engineer | **Core:** 2.3.0
+- **Task:** Cohort C-rewind-01 Layer D — implement the time-travel debugger (`rewind/debugger.py`) and `tests/test_debugger.py`.
+- **Commits:** 3 (b1d8a02..3c5e65f, plus this session-log commit)
+- **Outcome:** done — `TimeTravelDebugger` drives the Timeline cursor; 34 tests pass on hand-built timelines (no other layer imported).
+- **Open items:** `format_current` reads `step <snap.step>/<last index>` (e.g. 7 snapshots -> `step 6/6` at the end); the contract example `step 3/7` is ambiguous, so the integrator may flip it to `len` as the denominator. The pre-commit gate shells out to bare `python`, which this machine lacks; run it with `.venv/bin` on PATH.
+- **Notes:** none
+- **Report:** none
