@@ -39,3 +39,11 @@ re-seeded into the new office explicitly, and nothing else carries over.
 - **Outcome:** done — recursive-descent parser, 82 tests passing; comparisons non-associative per grammar; SyntaxError carries source offset.
 - **Open items:** none. Note: pre-commit gate runs bare `python -m pytest`; it needs a `python` on PATH (worktree venv bin) and fails with exit 5 while tests/ has no tests (affected the check-in commit only).
 - **Notes:** none
+## 2026-10-30 — Session 3
+- **Agent:** Linus (S003) | **Model:** claude-sonnet-5-5 | **Platform:** macOS (darwin 24.6), own git worktree | **Role:** engineer (cohort C-rewind-01, Layer C) | **Core:** 2.3.0
+- **Task:** Implement Layer C — `rewind/interpreter.py` (`run`, `run_collect`) + `tests/test_interpreter.py`, against the frozen contracts.
+- **Commits:** 2 code/ledger (293ca80..2a42963) + closing ledger commit
+- **Outcome:** done — 60 tests pass; pre-commit gate passed (run with `.venv/bin` on PATH, since the discovered gate calls `python`).
+- **Open items:** none. Design choices for the integrator: `/` is floor division; `if`/`while` each record a snapshot for the condition outcome (`while` once per evaluation incl. the final false check); assign desc shows the assigned value (`x = 5`), print desc shows the expression source (`print x`).
+- **Notes:** none
+- **Report:** none

@@ -54,7 +54,7 @@ is your stable session tag.
 |------|----------|-------|-------|--------|---------------|
 | Ada | S001 | claude-sonnet-5-5 | Layer A — rewind/lexer.py + tests/test_lexer.py (cohort C-rewind-01) | Done | Shipped: rewind/lexer.py + tests/test_lexer.py (68 tests pass) on branch claude/rewind-lexer-a8fc6b; awaiting parent merge |
 | Grace | S002 | claude-sonnet-5-5 | cohort C-rewind-01 Layer B - parser | Done | Shipped: rewind/parser.py + tests/test_parser.py (82 tests passing); branch claude/rewind-parser-661281 |
-| (cohort C-rewind-01 slot 3) | S003 | - | reserved - cohort C-rewind-01 (3/4) | Reserved | opened by Soren for: build the four layers of the rewind time-travel debugger (lexer, parser, interpreter+recorder, time-travel debugger) against the frozen contracts; the assigned sibling claims this row in place at check-in |
+| Linus | S003 | claude-sonnet-5-5 | Layer C — interpreter + recorder, cohort C-rewind-01 | Done | Shipped: rewind/interpreter.py + tests/test_interpreter.py, 60 tests pass, pushed on claude/rewind-interpreter-eed1ee |
 | (cohort C-rewind-01 slot 4) | S004 | - | reserved - cohort C-rewind-01 (4/4) | Reserved | opened by Soren for: build the four layers of the rewind time-travel debugger (lexer, parser, interpreter+recorder, time-travel debugger) against the frozen contracts; the assigned sibling claims this row in place at check-in |
 
 **Keep your Status cells current — that is what the board is for.** The
