@@ -54,7 +54,7 @@ is your stable session tag.
 |------|----------|-------|-------|--------|---------------|
 | (cohort C-rewind-01 slot 1) | S001 | - | reserved - cohort C-rewind-01 (1/4) | Reserved | opened by Soren for: build the four layers of the rewind time-travel debugger (lexer, parser, interpreter+recorder, time-travel debugger) against the frozen contracts; the assigned sibling claims this row in place at check-in |
 | (cohort C-rewind-01 slot 2) | S002 | - | reserved - cohort C-rewind-01 (2/4) | Reserved | opened by Soren for: build the four layers of the rewind time-travel debugger (lexer, parser, interpreter+recorder, time-travel debugger) against the frozen contracts; the assigned sibling claims this row in place at check-in |
-| (cohort C-rewind-01 slot 3) | S003 | - | reserved - cohort C-rewind-01 (3/4) | Reserved | opened by Soren for: build the four layers of the rewind time-travel debugger (lexer, parser, interpreter+recorder, time-travel debugger) against the frozen contracts; the assigned sibling claims this row in place at check-in |
+| Linus | S003 | claude-sonnet-5-5 | Layer C — interpreter + recorder (rewind/interpreter.py, tests/test_interpreter.py), cohort C-rewind-01 | Working | Phase 2 checked in; about to read kickoff + contracts |
 | (cohort C-rewind-01 slot 4) | S004 | - | reserved - cohort C-rewind-01 (4/4) | Reserved | opened by Soren for: build the four layers of the rewind time-travel debugger (lexer, parser, interpreter+recorder, time-travel debugger) against the frozen contracts; the assigned sibling claims this row in place at check-in |
 
 **Keep your Status cells current — that is what the board is for.** The
